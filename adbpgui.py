@@ -16,10 +16,10 @@ print("7-installed packages")
 adbsh = input("enter number: ")
 
 if adbsh == "1":
-    os.system("apt install adb")
+    os.system("sudo apt install adb")
     
 if adbsh == "2":
-    os.system("apt remove adb")
+    os.system("sudo apt remove adb")
 
 if adbsh == "3":
     package = input("enter apk file name: ")
